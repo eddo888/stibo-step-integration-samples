@@ -14,6 +14,9 @@ Defines the attributes, elements and parent child relationships, as well as a Li
 
 ![FYAYC XML Schema](fyayc-schema.png)
 
+Please see [W3C](https://www.w3.org/standards/xml/schema) for more information on xml schemas
+Please see [w3schools](https://www.w3schools.com/xml/schema_intro.asp) for excellent training
+
 # PIM.xsd
 
 The Stibo schema for STEP.XML format data, Stibo uses this format to import and export all of our structure, data, logic and configuration, it is the primary Stibo data format for offline storage.
@@ -26,9 +29,19 @@ When systems are migrated from one system to another, we use STEP.XML formats.
 
 The configuration used for our demonstration in STEP.XML format.
 
+# exported.step.xml.xmi
+
+A UML format (XMI) that can be used in tools like [Enterprise Architect by Sparx](https://sparxsystems.com)
+
+![EA UML Class Diagram]()
+
+
 # transform.xslt
 
 converts FYAYC XML into STEP.XML
+
+please see [W3C](https://www.w3.org/TR/xslt/) for more info on xslt
+please see [w3schools](https://www.w3schools.com/xml/xsl_intro.asp) to get training
 
 # data.step.xml
 
