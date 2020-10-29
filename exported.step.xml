@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true" Validation="XSD" DefinitionsAsComments="true">
+<UserTypes ExportSize="Minimum"/>
+<EdgeTypes/>
+<CrossReferenceTypes ExportSize="Minimum"/>
+<ListOfValuesGroupList/>
+<ListsOfValues ExportSize="Minimum"/>
+<AttributeGroupList ExportSize="Minimum"/>
+<AttributeList ExportSize="Minimum"/>
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from (TEAM_Home)
+Classifications All
+Products "TEAM_Home"
+Assets All
+
+Exported by database exporter.
+-->
+<STEP-ProductInformation xmlns="http://www.stibosystems.com/step" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.stibosystems.com/step PIM.xsd" ExportTime="2020-10-27 16:29:56" ExportContext="Context1" ContextID="Context1" WorkspaceID="Main"
+  UseContextLocale="false">
+
+  <UserTypes>
+    <UserType ID="TEAM_Leaf" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" Referenced="true">
+      <Name>Team Leaf</Name>
+      <UserTypeLink UserTypeID="TEAM_Node"/>
+      <AttributeLink AttributeID="TEAM_Phone"/>
+      <AttributeLink AttributeID="TEAM_Email"/>
+      <AttributeLink AttributeID="TEAM_Role"/>
+      <AttributeLink AttributeID="TEAM_DateTime"/>
+    </UserType>
+    <UserType ID="TEAM_Node" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" Referenced="true">
+      <Name>Team Node</Name>
+      <UserTypeLink UserTypeID="TEAM_Home"/>
+      <AttributeLink AttributeID="TEAM_Phone"/>
+      <AttributeLink AttributeID="TEAM_Email"/>
+      <AttributeLink AttributeID="TEAM_Role"/>
+      <AttributeLink AttributeID="TEAM_DateTime"/>
+    </UserType>
+    <UserType ID="TEAM_Home" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" Referenced="true">
+      <Name>Team Home</Name>
+      <UserTypeLink UserTypeID="Product user-type root"/>
+      <AttributeLink AttributeID="TEAM_Phone"/>
+      <AttributeLink AttributeID="TEAM_Email"/>
+      <AttributeLink AttributeID="TEAM_Role"/>
+      <AttributeLink AttributeID="TEAM_DateTime"/>
+    </UserType>
+  </UserTypes>
+
+  <CrossReferenceTypes>
+    <ProductCrossReferenceType ID="TEAM_Contact" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true" Referenced="true">
+      <Name>Team Contact</Name>
+      <UserTypeLink UserTypeID="TEAM_Leaf"/>
+      <TargetUserTypeLink UserTypeID="TEAM_Leaf"/>
+    </ProductCrossReferenceType>
+  </CrossReferenceTypes>
+
+  <ListOfValuesGroupList>
+    <ListOfValuesGroup ID="List Of Values group root">
+      <Name>Lists of Values / LOVs</Name>
+      <ListOfValuesGroup ID="TEAM_LOVs">
+        <Name>Team LOVs</Name>
+      </ListOfValuesGroup>
+    </ListOfValuesGroup>
+  </ListOfValuesGroupList>
+
+  <ListsOfValues>
+    <ListOfValue ID="TEAM_ROLE_LOV" ParentID="TEAM_LOVs" AllowUserValueAddition="false" UseValueID="false" Referenced="true">
+      <Name>Role LOV</Name>
+      <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""/>
+      <Value>Solution Architect</Value>
+      <Value>Company</Value>
+      <Value>Project Manager</Value>
+    </ListOfValue>
+  </ListsOfValues>
+
+  <AttributeGroupList>
+    <AttributeGroup ID="TEAM_Attributes" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
+      <Name>Team Attributes</Name>
+    </AttributeGroup>
+  </AttributeGroupList>
+
+  <AttributeList>
+
+    <Attribute ID="TEAM_Phone" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+      <Name>Phone</Name>
+      <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""/>
+      <AttributeGroupLink AttributeGroupID="TEAM_Attributes"/>
+      <UserTypeLink UserTypeID="TEAM_Leaf"/>
+      <UserTypeLink UserTypeID="TEAM_Node"/>
+      <UserTypeLink UserTypeID="TEAM_Home"/>
+    </Attribute>
+
+    <Attribute ID="TEAM_Email" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+      <Name>Email</Name>
+      <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""/>
+      <AttributeGroupLink AttributeGroupID="TEAM_Attributes"/>
+      <UserTypeLink UserTypeID="TEAM_Leaf"/>
+      <UserTypeLink UserTypeID="TEAM_Node"/>
+      <UserTypeLink UserTypeID="TEAM_Home"/>
+    </Attribute>
+
+    <Attribute ID="TEAM_DateTime" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+      <Name>DateTime</Name>
+      <Validation BaseType="isodatetime" MinValue="" MaxValue="" MaxLength="" InputMask=""/>
+      <AttributeGroupLink AttributeGroupID="TEAM_Attributes"/>
+      <UserTypeLink UserTypeID="TEAM_Leaf"/>
+      <UserTypeLink UserTypeID="TEAM_Node"/>
+      <UserTypeLink UserTypeID="TEAM_Home"/>
+    </Attribute>
+
+    <Attribute ID="TEAM_Role" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Referenced="true" Mandatory="false">
+      <Name>Role</Name>
+      <ListOfValueLink ListOfValueID="TEAM_ROLE_LOV"/>
+      <AttributeGroupLink AttributeGroupID="TEAM_Attributes"/>
+      <UserTypeLink UserTypeID="TEAM_Leaf"/>
+      <UserTypeLink UserTypeID="TEAM_Node"/>
+      <UserTypeLink UserTypeID="TEAM_Home"/>
+    </Attribute>
+
+  </AttributeList>
+
+  <Products>
+    <Product ID="TEAM_Home" UserTypeID="TEAM_Home" ParentID="Product hierarchy root">
+
+      <AttributeLink AttributeID="TEAM_DateTime"/>
+      <AttributeLink AttributeID="TEAM_Email"/>
+      <AttributeLink AttributeID="TEAM_Phone"/>
+      <AttributeLink AttributeID="TEAM_Role"/>
+      <Product ID="TEAM_STIBO" UserTypeID="TEAM_Node">
+        <Name>Stibo Systems</Name>
+        <Values>
+          <Value AttributeID="TEAM_Role">Company</Value>
+          <Value AttributeID="TEAM_DateTime">2020-10-27 05:23:51</Value>
+          <Value AttributeID="TEAM_Phone">02 9135 2921</Value>
+        </Values>
+        <Product ID="TEAM_DE" UserTypeID="TEAM_Leaf">
+          <Name>David Edson</Name>
+          <Values>
+            <Value AttributeID="TEAM_Phone">+614 0868 0808</Value>
+            <Value AttributeID="TEAM_Role">Solution Architect</Value>
+            <Value AttributeID="TEAM_DateTime">2020-10-27 05:23:51</Value>
+            <Value AttributeID="TEAM_Email">dave@stibosystems.com.au</Value>
+          </Values>
+        </Product>
+      </Product>
+      <Product ID="TEAM_FYAYC" UserTypeID="TEAM_Node">
+        <Name>for you and your customers</Name>
+        <Values>
+          <Value AttributeID="TEAM_Phone">0438 363 913</Value>
+          <Value AttributeID="TEAM_Role">Company</Value>
+          <Value AttributeID="TEAM_DateTime">2020-10-27 05:23:51</Value>
+          <Value AttributeID="TEAM_Email">melbourne@foryouandyourcustomers.com</Value>
+        </Values>
+        <Product ID="TEAM_BM" UserTypeID="TEAM_Leaf">
+          <Name>Bernhard Mueller</Name>
+          <ProductCrossReference ProductID="TEAM_DE" Type="TEAM_Contact"/>
+
+          <Values>
+            <Value AttributeID="TEAM_DateTime">2020-10-18 09:00:00</Value>
+            <Value AttributeID="TEAM_Email">bem@foryouandyourcustomers.com</Value>
+          </Values>
+        </Product>
+        <Product ID="TEAM_RG" UserTypeID="TEAM_Leaf">
+          <Name>Randeep Gandhi</Name>
+          <ProductCrossReference ProductID="TEAM_DE" Type="TEAM_Contact"/>
+
+          <Values>
+            <Value AttributeID="TEAM_Role">Solution Architect</Value>
+            <Value AttributeID="TEAM_DateTime">2020-10-27 05:23:51</Value>
+            <Value AttributeID="TEAM_Email">rga@foryouandyourcustomers.com</Value>
+          </Values>
+        </Product>
+        <Product ID="TEAM_BJ" UserTypeID="TEAM_Leaf">
+          <Name>Bree Johnstone</Name>
+          <Values>
+            <Value AttributeID="TEAM_Role">Project Manager</Value>
+            <Value AttributeID="TEAM_DateTime">2020-10-27 05:23:51</Value>
+            <Value AttributeID="TEAM_Email">bjo@foryouandyourcustomers.com</Value>
+          </Values>
+        </Product>
+      </Product>
+    </Product>
+  </Products>
+
+</STEP-ProductInformation>
