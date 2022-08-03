@@ -6,7 +6,7 @@
                               UseContextLocale="false"
                               WorkspaceID="Main"
                               SingleUpdateMode="N"
-                              ExportTime="2022-08-03 11:05:42"
+                              ExportTime="2022-08-03 11:06:44"
                               AutoApprove="N"
                               ContextID="Context1">
    <step:Products>
@@ -15,26 +15,29 @@
                     UserTypeID="TEAM_Home">
          <step:Product UserTypeID="TEAM_Node" ID="TEAM_STIBO">
             <step:Name>Stibo Systems</step:Name>
-            <step:Product UserTypeID="TEAM_Leaf" ID="TEAM_DE">
+            <step:Product UserTypeID="TEAM_Leaf" ID="TEAM_DE"><!--STIBO-->
                <step:Name>David Edson</step:Name>
                <step:Values>
-                  <step:Value AttributeID="TEAM_Phone">dave was here</step:Value>
-                  <step:Value AttributeID="TEAM_Email">dave@stibosystems.com</step:Value>
-                  <step:Value AttributeID="TEAM_Role">Solution Architect</step:Value>
-                  <step:Value AttributeID="TEAM_DateTime">2020-10-18 09:00:00</step:Value>
+                  <step:Value AttributeID="FYAYC_ID">DE</step:Value>
+                  <step:Value AttributeID="FYAYC_email">dave@stibosystems.com</step:Value>
+                  <step:Value AttributeID="FYAYC_name">David Edson</step:Value>
+                  <step:Value AttributeID="FYAYC_phone">dave was here</step:Value>
+                  <step:Value AttributeID="FYAYC_role">Solution Architect</step:Value>
+                  <step:Value AttributeID="FYAYC_when">2020-10-18 09:00:00</step:Value>
                </step:Values>
             </step:Product>
          </step:Product>
          <step:Product UserTypeID="TEAM_Node" ID="TEAM_FYAYC">
             <step:Name>for you and your customers</step:Name>
-            <step:Product UserTypeID="TEAM_Leaf" ID="TEAM_BM">
+            <step:Product UserTypeID="TEAM_Leaf" ID="TEAM_BM"><!--FYAYC-->
                <step:Name>Bernhard Mueller</step:Name>
                <step:ProductCrossReference Type="TEAM_Contact" ProductID="TEAM_DE"/>
                <step:Values>
-                  <step:Value AttributeID="TEAM_Phone"/>
-                  <step:Value AttributeID="TEAM_Email">bem@foryouandyourcustomers.com</step:Value>
-                  <step:Value AttributeID="TEAM_Role">General Manager</step:Value>
-                  <step:Value AttributeID="TEAM_DateTime">2020-10-18 09:00:00</step:Value>
+                  <step:Value AttributeID="FYAYC_ID">BM</step:Value>
+                  <step:Value AttributeID="FYAYC_email">bem@foryouandyourcustomers.com</step:Value>
+                  <step:Value AttributeID="FYAYC_name">Bernhard Mueller</step:Value>
+                  <step:Value AttributeID="FYAYC_role">General Manager</step:Value>
+                  <step:Value AttributeID="FYAYC_when">2020-10-18 09:00:00</step:Value>
                </step:Values>
             </step:Product>
          </step:Product>
