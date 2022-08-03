@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<XMI timestamp="2020-10-28 10:25:56" xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+<XMI timestamp="2022-08-03 11:34:19" xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>$HeadURL: git@github.com:eddo888/Tools/xmi.py $</XMI.exporter>
@@ -8,443 +8,665 @@
 		<XMI.metamodel xmi.name="UML" xmi.version="1.4"/>
 	</XMI.header>
 	<XMI.content>
-		<UML:Model isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="2020-10-28 10:25:56" visibility="public" xmi.id="EDDO_45e2d4c0-07e9-43d6-95e5-46ddd52a580a">
+		<UML:Model isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="exported.step.xml" visibility="public" xmi.id="EDDO_634c2b15-c06e-4260-a7a8-6407009b175f">
 			<UML:Namespace.ownedElement>
-				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Fundamentals" visibility="public" xmi.id="EDDO_b0a7a2d3-3e97-4a4f-9285-e6902928d7eb">
+				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="STEP" visibility="public" xmi.id="EDDO_ed427493-1390-497b-bd73-2fd35d31f9bf">
 					<UML:Namespace.ownedElement>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="text" visibility="public" xmi.id="text">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Fundamentals" visibility="public" xmi.id="EDDO_85cf1f9f-5fc5-448c-bd0d-6e5d1c7919ce">
+							<UML:Namespace.ownedElement>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="condition" visibility="public" xmi.id="EDDO_438D7074ED8DC9D6F627F5158255F128">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="date" visibility="public" xmi.id="EDDO_8EF7F2E1E45D6B33FFE75EFB4E31682B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="datetime" visibility="public" xmi.id="EDDO_0E85E2F63FC671C64DB2D25A9CD50B11">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="integer" visibility="public" xmi.id="EDDO_A1CF4B65EB317A73C42C70EE8D1A151A">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="isodate" visibility="public" xmi.id="EDDO_CB6A7929339B05018A30AA3CAA1C37D1">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="isodatetime" visibility="public" xmi.id="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="legacyisodate" visibility="public" xmi.id="EDDO_9D2D292AB55AA4B42799F9A4DD4B31FD">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="legacyisodatetime" visibility="public" xmi.id="EDDO_3E42A874E54B2E3B9B60268267814990">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="number" visibility="public" xmi.id="EDDO_E4C45642F67B3F46BB63F078F57B2250">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="numberrange" visibility="public" xmi.id="EDDO_A5C5D4C143B4C470791BA8C0CC7D8C96">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="numeric_text" visibility="public" xmi.id="EDDO_34635C93FC4CE25B2CA17AF954C6AAD0">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="regexp" visibility="public" xmi.id="EDDO_42A77B30045999FBFFBEFA49D6A284A1">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="text" visibility="public" xmi.id="EDDO_E960334B81354A92BDD3B9BC86A98D06">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="text_exclude_tags" visibility="public" xmi.id="EDDO_2DEC7F8A2798CB0E35EF33327BC3E3CF">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="url" visibility="public" xmi.id="EDDO_9B7493A09834759DAF4B79FE79763359">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature/>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="ListOfValues" visibility="public" xmi.id="EDDO_3963eb9a-8d29-443c-8df5-7b23530484cc">
+							<UML:Namespace.ownedElement>
+								<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Lists of Values / LOVs" visibility="public" xmi.id="EDDO_BF3551C47040FB69DD403AC75EDD16B8">
+									<UML:Namespace.ownedElement>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="List Of Values group root"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+										<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team LOVs" visibility="public" xmi.id="EDDO_107244D7C21E735921FF4086F7C0A63B">
+											<UML:Namespace.ownedElement>
+												<UML:Attribute name="@ID" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="TEAM_LOVs"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Role LOV" visibility="public" xmi.id="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+													</UML:ModelElement.taggedValue>
+													<UML:Classifier.feature>
+														<UML:Attribute name="@ID" visibility="private">
+															<UML:Attribute.initialValue>
+																<UML:Expression body="TEAM_ROLE_LOV"/>
+															</UML:Attribute.initialValue>
+														</UML:Attribute>
+														<UML:Attribute name="@MinValue" visibility="private"/>
+														<UML:Attribute name="@MaxValue" visibility="private"/>
+														<UML:Attribute name="@MaxLength" visibility="private">
+															<UML:Attribute.initialValue>
+																<UML:Expression body="100"/>
+															</UML:Attribute.initialValue>
+														</UML:Attribute>
+														<UML:Attribute name="@InputMask" visibility="private"/>
+														<UML:Attribute name="Solution Architect" visibility="private"/>
+														<UML:Attribute name="Company" visibility="private"/>
+														<UML:Attribute name="Project Manager" visibility="private"/>
+													</UML:Classifier.feature>
+													<UML:ModelElement.stereotype>
+														<UML:Stereotype xmi.idref="EDDO_ef1a5631-18ba-4831-8e13-b2e16f76da22"/>
+													</UML:ModelElement.stereotype>
+												</UML:Class>
+											</UML:Namespace.ownedElement>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EDDO_dd85825d-f62a-414e-8e0f-c638b2291158"/>
+											</UML:ModelElement.stereotype>
+										</UML:Package>
+									</UML:Namespace.ownedElement>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_dd85825d-f62a-414e-8e0f-c638b2291158"/>
+									</UML:ModelElement.stereotype>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
 							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
+								<UML:Stereotype xmi.idref="EDDO_dd85825d-f62a-414e-8e0f-c638b2291158"/>
 							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="number" visibility="public" xmi.id="number">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="integer" visibility="public" xmi.id="integer">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="date" visibility="public" xmi.id="date">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="datetime" visibility="public" xmi.id="datetime">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="isodate" visibility="public" xmi.id="isodate">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="isodatetime" visibility="public" xmi.id="isodatetime">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="legacyisodatetime" visibility="public" xmi.id="legacyisodatetime">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="legacyisodate" visibility="public" xmi.id="legacyisodate">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="regexp" visibility="public" xmi.id="regexp">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
+						</UML:Package>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Attributes" visibility="public" xmi.id="EDDO_9a299076-701c-4f5f-9722-a6176efd328f">
+							<UML:Namespace.ownedElement>
+								<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team Attributes" visibility="public" xmi.id="EDDO_1e9a1c60-e365-4d03-99c7-4353abce9bbe">
+									<UML:Namespace.ownedElement>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="TEAM_Attributes"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+										<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Phone" visibility="public" xmi.id="EDDO_7F59EEFE9F2B2A7BFF4D585B62D74156">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="@ID" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="TEAM_Phone"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@MinValue" visibility="private"/>
+												<UML:Attribute name="@MaxValue" visibility="private"/>
+												<UML:Attribute name="@MaxLength" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="100"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@InputMask" visibility="private"/>
+												<UML:Attribute name="@base" visibility="private">
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+													</UML:StructuralFeature.type>
+													<UML:Attribute.initialValue>
+														<UML:Expression body="text"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@type" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="Specification"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EDDO_4df0f978-8d56-4ace-9f8a-3e9541cdfaeb"/>
+											</UML:ModelElement.stereotype>
+										</UML:Class>
+										<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Email" visibility="public" xmi.id="EDDO_E0A0947B62FE41E5727893C30089DCB4">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="@ID" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="TEAM_Email"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@MinValue" visibility="private"/>
+												<UML:Attribute name="@MaxValue" visibility="private"/>
+												<UML:Attribute name="@MaxLength" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="100"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@InputMask" visibility="private"/>
+												<UML:Attribute name="@base" visibility="private">
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+													</UML:StructuralFeature.type>
+													<UML:Attribute.initialValue>
+														<UML:Expression body="text"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@type" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="Specification"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EDDO_4df0f978-8d56-4ace-9f8a-3e9541cdfaeb"/>
+											</UML:ModelElement.stereotype>
+										</UML:Class>
+										<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="DateTime" visibility="public" xmi.id="EDDO_EC7348317F15E3047300973306BCD214">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="@ID" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="TEAM_DateTime"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@MinValue" visibility="private"/>
+												<UML:Attribute name="@MaxValue" visibility="private"/>
+												<UML:Attribute name="@MaxLength" visibility="private"/>
+												<UML:Attribute name="@InputMask" visibility="private"/>
+												<UML:Attribute name="@base" visibility="private">
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347"/>
+													</UML:StructuralFeature.type>
+													<UML:Attribute.initialValue>
+														<UML:Expression body="isodatetime"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@type" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="Specification"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EDDO_4df0f978-8d56-4ace-9f8a-3e9541cdfaeb"/>
+											</UML:ModelElement.stereotype>
+										</UML:Class>
+										<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Role" visibility="public" xmi.id="EDDO_58567DB0DD3A6B405C8F41B98835481A">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Classifier.feature>
+												<UML:Attribute name="@ID" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="TEAM_Role"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@base" visibility="private">
+													<UML:StructuralFeature.type>
+														<UML:Classifier xmi.idref="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
+													</UML:StructuralFeature.type>
+													<UML:Attribute.initialValue>
+														<UML:Expression body="team_role_lov"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+												<UML:Attribute name="@type" visibility="private">
+													<UML:Attribute.initialValue>
+														<UML:Expression body="Specification"/>
+													</UML:Attribute.initialValue>
+												</UML:Attribute>
+											</UML:Classifier.feature>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype xmi.idref="EDDO_4df0f978-8d56-4ace-9f8a-3e9541cdfaeb"/>
+											</UML:ModelElement.stereotype>
+										</UML:Class>
+										<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="LOV" visibility="public" xmi.id="EDDO_25a4a6de-8432-4dea-bf44-61717e1241a3">
+											<UML:Association.connection>
+												<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_62a97bc9-c0c6-4d3e-98ff-8d826cfc0a9b">
+													<UML:AssociationEnd.participant>
+														<UML:Class xmi.idref="EDDO_58567DB0DD3A6B405C8F41B98835481A"/>
+													</UML:AssociationEnd.participant>
+												</UML:AssociationEnd>
+												<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_9693b285-2562-412d-8582-51dc9fc725b2">
+													<UML:AssociationEnd.participant>
+														<UML:Class xmi.idref="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
+													</UML:AssociationEnd.participant>
+												</UML:AssociationEnd>
+											</UML:Association.connection>
+										</UML:Association>
+									</UML:Namespace.ownedElement>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_b8826508-5a5f-4455-8f07-e96fbca782e1"/>
+									</UML:ModelElement.stereotype>
+								</UML:Package>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="UserTypes" visibility="public" xmi.id="EDDO_b9e006e2-969a-4b00-a69a-f8564eefddc3">
+							<UML:Namespace.ownedElement>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Team Leaf" visibility="public" xmi.id="EDDO_1A8A88BDCC4672195273023661EE0435">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="TEAM_Leaf"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+										<UML:Attribute name="Phone" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Email" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="DateTime" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Role" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_47e2876d-ff1e-42b5-84d6-622cbdbbe243"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Team Node" visibility="public" xmi.id="EDDO_D5C2036CC1DC56D58E9E7F8DF96136E5">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="TEAM_Node"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+										<UML:Attribute name="Phone" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Email" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="DateTime" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Role" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_47e2876d-ff1e-42b5-84d6-622cbdbbe243"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Team Home" visibility="public" xmi.id="EDDO_3704285CB7587FC5C081F2409A026433">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="TEAM_Home"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+										<UML:Attribute name="Phone" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Email" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="DateTime" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+										<UML:Attribute name="Role" visibility="private">
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
+											</UML:StructuralFeature.type>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_47e2876d-ff1e-42b5-84d6-622cbdbbe243"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Generalization subtype="EDDO_1A8A88BDCC4672195273023661EE0435" supertype="EDDO_D5C2036CC1DC56D58E9E7F8DF96136E5" visibility="public" xmi.id="EDDO_c8f68335-f50a-455a-9097-9be7bc044894"/>
+								<UML:Generalization subtype="EDDO_D5C2036CC1DC56D58E9E7F8DF96136E5" supertype="EDDO_3704285CB7587FC5C081F2409A026433" visibility="public" xmi.id="EDDO_98571922-1b38-4607-9501-ba34e0fff49b"/>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="References" visibility="public" xmi.id="EDDO_72c2f6ca-8f2e-47c2-8be8-e72c20292784">
+							<UML:Namespace.ownedElement>
+								<UML:Class isAbstract="false" isLeaf="false" isRoot="false" isSpecification="false" name="Team Contact" visibility="public" xmi.id="EDDO_AD70590807EDBFB12F81E2C9B558C072">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="@ID" visibility="private">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="TEAM_Contact"/>
+											</UML:Attribute.initialValue>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype xmi.idref="EDDO_85f26d81-8866-46fc-bc66-0394cea3c75b"/>
+									</UML:ModelElement.stereotype>
+								</UML:Class>
+								<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="Team Contact" visibility="public" xmi.id="EDDO_95287f6a-6c22-44f2-a58c-c1448fd98760">
+									<UML:Association.connection>
+										<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_2b07f544-c0be-463f-bde0-73c6a84a2dae">
+											<UML:AssociationEnd.participant>
+												<UML:Class xmi.idref="EDDO_1A8A88BDCC4672195273023661EE0435"/>
+											</UML:AssociationEnd.participant>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_812b0fde-58b4-4ada-bbe0-9bd5b0b6c33a">
+											<UML:AssociationEnd.participant>
+												<UML:Class xmi.idref="EDDO_AD70590807EDBFB12F81E2C9B558C072"/>
+											</UML:AssociationEnd.participant>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="Team Contact" visibility="public" xmi.id="EDDO_83ff4b67-ed20-4783-ba63-3178998ddc45">
+									<UML:Association.connection>
+										<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_88ba9ec0-bc7b-49aa-a30e-711e1dc6aa7e">
+											<UML:AssociationEnd.participant>
+												<UML:Class xmi.idref="EDDO_AD70590807EDBFB12F81E2C9B558C072"/>
+											</UML:AssociationEnd.participant>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_ea4247bf-bf6d-4b0b-8176-5ed576f997c4">
+											<UML:AssociationEnd.participant>
+												<UML:Class xmi.idref="EDDO_1A8A88BDCC4672195273023661EE0435"/>
+											</UML:AssociationEnd.participant>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Keys" visibility="public" xmi.id="EDDO_db6904a4-e40f-4dc0-ab3d-285595e56e2f">
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:Stereotype name="BaseType" xmi.id="EDDO_debd0830-f8ba-4e59-95ca-734e5b6247f2"/>
-				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="ListsOfValues" visibility="public" xmi.id="EDDO_82d54c3d-3e4e-4ab1-8e2e-2627e48997c2">
-					<UML:Namespace.ownedElement>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Role LOV" visibility="public" xmi.id="TEAM_ROLE_LOV">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="MinValue" visibility="private"/>
-								<UML:Attribute name="MaxValue" visibility="private"/>
-								<UML:Attribute name="MaxLingth" visibility="private"/>
-								<UML:Attribute name="InputMask" visibility="private"/>
-								<UML:Attribute name="Solution Architect" visibility="private"/>
-								<UML:Attribute name="Company" visibility="private"/>
-								<UML:Attribute name="Project Manager" visibility="private"/>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_977bd082-8e38-4077-ac8c-406db9506db0"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-					</UML:Namespace.ownedElement>
-				</UML:Package>
-				<UML:Stereotype name="ListOfValues" xmi.id="EDDO_977bd082-8e38-4077-ac8c-406db9506db0"/>
-				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Attributes" visibility="public" xmi.id="EDDO_95ca21a4-a989-48c3-b107-034f297e4f17">
-					<UML:Namespace.ownedElement>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Phone" visibility="public" xmi.id="TEAM_Phone">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="MinValue" visibility="private"/>
-								<UML:Attribute name="MaxValue" visibility="private"/>
-								<UML:Attribute name="MaxLingth" visibility="private"/>
-								<UML:Attribute name="InputMask" visibility="private"/>
-								<UML:Attribute name="base" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="type" visibility="private">
-									<UML:Attribute.initialValue>
-										<UML:Expression body="Specification"/>
-									</UML:Attribute.initialValue>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_6a130262-7ac1-4be8-b70b-fc45fa7a089c"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Email" visibility="public" xmi.id="TEAM_Email">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="MinValue" visibility="private"/>
-								<UML:Attribute name="MaxValue" visibility="private"/>
-								<UML:Attribute name="MaxLingth" visibility="private"/>
-								<UML:Attribute name="InputMask" visibility="private"/>
-								<UML:Attribute name="base" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="type" visibility="private">
-									<UML:Attribute.initialValue>
-										<UML:Expression body="Specification"/>
-									</UML:Attribute.initialValue>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_6a130262-7ac1-4be8-b70b-fc45fa7a089c"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="DateTime" visibility="public" xmi.id="TEAM_DateTime">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="MinValue" visibility="private"/>
-								<UML:Attribute name="MaxValue" visibility="private"/>
-								<UML:Attribute name="MaxLingth" visibility="private"/>
-								<UML:Attribute name="InputMask" visibility="private"/>
-								<UML:Attribute name="base" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="isodatetime"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="type" visibility="private">
-									<UML:Attribute.initialValue>
-										<UML:Expression body="Specification"/>
-									</UML:Attribute.initialValue>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_6a130262-7ac1-4be8-b70b-fc45fa7a089c"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Role" visibility="public" xmi.id="TEAM_Role">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="base" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="TEAM_ROLE_LOV"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="type" visibility="private">
-									<UML:Attribute.initialValue>
-										<UML:Expression body="Specification"/>
-									</UML:Attribute.initialValue>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_6a130262-7ac1-4be8-b70b-fc45fa7a089c"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="LOV" visibility="public" xmi.id="EDDO_98c60942-389a-42d2-a9dd-d0fe72d34cbe">
-							<UML:Association.connection>
-								<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_7ad8595f-e756-44c2-881e-a735979facf2">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_Role"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_5da1c73c-bb3f-450e-943d-26056356c205">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_ROLE_LOV"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
-					</UML:Namespace.ownedElement>
-				</UML:Package>
-				<UML:Stereotype name="Attribute" xmi.id="EDDO_6a130262-7ac1-4be8-b70b-fc45fa7a089c"/>
-				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="UserTypes" visibility="public" xmi.id="EDDO_38b7faf1-d584-4580-8f04-f10f97e38dc2">
-					<UML:Namespace.ownedElement>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team Leaf" visibility="public" xmi.id="TEAM_Leaf">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="Phone" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Email" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="DateTime" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="isodatetime"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Role" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="TEAM_ROLE_LOV"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_3fa799de-ffe5-490e-a588-5313d0a7f9c7"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team Node" visibility="public" xmi.id="TEAM_Node">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="Phone" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Email" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="DateTime" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="isodatetime"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Role" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="TEAM_ROLE_LOV"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_3fa799de-ffe5-490e-a588-5313d0a7f9c7"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team Home" visibility="public" xmi.id="TEAM_Home">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="Phone" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Email" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="text"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="DateTime" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="isodatetime"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-								<UML:Attribute name="Role" visibility="private">
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="TEAM_ROLE_LOV"/>
-									</UML:StructuralFeature.type>
-								</UML:Attribute>
-							</UML:Classifier.feature>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_3fa799de-ffe5-490e-a588-5313d0a7f9c7"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Generalization subtype="TEAM_Leaf" supertype="TEAM_Node" visibility="public" xmi.id="EDDO_dac2b58e-6c0c-4d25-bc80-60787fb23a62"/>
-						<UML:Generalization subtype="TEAM_Node" supertype="TEAM_Home" visibility="public" xmi.id="EDDO_73ee4b94-2d43-476f-ba89-062d9461e097"/>
-					</UML:Namespace.ownedElement>
-				</UML:Package>
-				<UML:Stereotype name="UserType" xmi.id="EDDO_3fa799de-ffe5-490e-a588-5313d0a7f9c7"/>
-				<UML:Package isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="References" visibility="public" xmi.id="EDDO_aeb744c9-7c16-4b78-8b41-a5b05eb75427">
-					<UML:Namespace.ownedElement>
-						<UML:Class isAbstract="false" isLeaf="false" isRoot="true" isSpecification="false" name="Team Contact" visibility="public" xmi.id="TEAM_Contact">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature/>
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype xmi.idref="EDDO_50f59d1e-88a3-4b80-981a-248aafc1f82b"/>
-							</UML:ModelElement.stereotype>
-						</UML:Class>
-						<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="Team Contact" visibility="public" xmi.id="EDDO_9d3f11c2-77a8-4189-a2b3-fc8103ee3b0d">
-							<UML:Association.connection>
-								<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_dc1ab445-ec1d-4196-a72e-ef41e2ded605">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_Leaf"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_e46c4e9e-5216-4ecc-8e45-b638d541eacc">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_Contact"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
-						<UML:Association isAbstract="false" isLeaf="false" isRoot="false" name="Team Contact" visibility="public" xmi.id="EDDO_756bd99c-0a9a-40f6-85c7-92923ed61035">
-							<UML:Association.connection>
-								<UML:AssociationEnd aggregation="none" isNavigable="false" xmi.id="EDDO_9cf6255e-4f50-4955-b603-1a7d8eeca290">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_Contact"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd aggregation="none" isNavigable="true" xmi.id="EDDO_de71cc83-bac2-4b4e-a2a4-20c1363285f1">
-									<UML:AssociationEnd.participant>
-										<UML:Class xmi.idref="TEAM_Leaf"/>
-									</UML:AssociationEnd.participant>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
-					</UML:Namespace.ownedElement>
-				</UML:Package>
-				<UML:Stereotype name="Reference" xmi.id="EDDO_50f59d1e-88a3-4b80-981a-248aafc1f82b"/>
+				<UML:Stereotype name="STEP BaseType" xmi.id="EDDO_4adb8272-65cd-465d-9629-c51a7a6c1bff"/>
+				<UML:Stereotype name="STEP ListOfValuesGroup" xmi.id="EDDO_dd85825d-f62a-414e-8e0f-c638b2291158"/>
+				<UML:Stereotype name="STEP ListOfValues" xmi.id="EDDO_ef1a5631-18ba-4831-8e13-b2e16f76da22"/>
+				<UML:Stereotype name="STEP AttributeGroup" xmi.id="EDDO_b8826508-5a5f-4455-8f07-e96fbca782e1"/>
+				<UML:Stereotype name="STEP Attribute" xmi.id="EDDO_4df0f978-8d56-4ace-9f8a-3e9541cdfaeb"/>
+				<UML:Stereotype name="STEP UserType" xmi.id="EDDO_47e2876d-ff1e-42b5-84d6-622cbdbbe243"/>
+				<UML:Stereotype name="STEP Reference" xmi.id="EDDO_85f26d81-8866-46fc-bc66-0394cea3c75b"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
-		<UML:Diagram diagramType="ClassDiagram" name="Fundamentals" owner="EDDO_b0a7a2d3-3e97-4a4f-9285-e6902928d7eb" toolName="Enterprise Architect 2.5" xmi.id="EDDO_4f0bac5f-17f1-4b7a-8f28-f19f692d71fe">
+		<UML:Diagram diagramType="ClassDiagram" name="STEP" owner="EDDO_ed427493-1390-497b-bd73-2fd35d31f9bf" toolName="Enterprise Architect 2.5" xmi.id="EDDO_43d15b1e-df1e-4d41-a4c5-09ed9cb24e9b">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="package" value="EDDO_b0a7a2d3-3e97-4a4f-9285-e6902928d7eb"/>
+				<UML:TaggedValue tag="package" value="EDDO_ed427493-1390-497b-bd73-2fd35d31f9bf"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement subject="text"/>
-				<UML:DiagramElement subject="number"/>
-				<UML:DiagramElement subject="integer"/>
-				<UML:DiagramElement subject="date"/>
-				<UML:DiagramElement subject="datetime"/>
-				<UML:DiagramElement subject="isodate"/>
-				<UML:DiagramElement subject="isodatetime"/>
-				<UML:DiagramElement subject="legacyisodatetime"/>
-				<UML:DiagramElement subject="legacyisodate"/>
-				<UML:DiagramElement subject="regexp"/>
+				<UML:DiagramElement subject="EDDO_85cf1f9f-5fc5-448c-bd0d-6e5d1c7919ce"/>
+				<UML:DiagramElement subject="EDDO_3963eb9a-8d29-443c-8df5-7b23530484cc"/>
+				<UML:DiagramElement subject="EDDO_9a299076-701c-4f5f-9722-a6176efd328f"/>
+				<UML:DiagramElement subject="EDDO_b9e006e2-969a-4b00-a69a-f8564eefddc3"/>
+				<UML:DiagramElement subject="EDDO_72c2f6ca-8f2e-47c2-8be8-e72c20292784"/>
+				<UML:DiagramElement subject="EDDO_db6904a4-e40f-4dc0-ab3d-285595e56e2f"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
-		<UML:Diagram diagramType="ClassDiagram" name="ListsOfValues" owner="EDDO_82d54c3d-3e4e-4ab1-8e2e-2627e48997c2" toolName="Enterprise Architect 2.5" xmi.id="EDDO_12c57f88-39e2-4f13-8bdb-d53152a00b5e">
+		<UML:Diagram diagramType="ClassDiagram" name="Fundamentals" owner="EDDO_85cf1f9f-5fc5-448c-bd0d-6e5d1c7919ce" toolName="Enterprise Architect 2.5" xmi.id="EDDO_e6e7cb56-2a76-4b33-ad2c-59f5c158fbc3">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="package" value="EDDO_82d54c3d-3e4e-4ab1-8e2e-2627e48997c2"/>
+				<UML:TaggedValue tag="package" value="EDDO_85cf1f9f-5fc5-448c-bd0d-6e5d1c7919ce"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement subject="TEAM_ROLE_LOV"/>
+				<UML:DiagramElement subject="EDDO_438D7074ED8DC9D6F627F5158255F128"/>
+				<UML:DiagramElement subject="EDDO_8EF7F2E1E45D6B33FFE75EFB4E31682B"/>
+				<UML:DiagramElement subject="EDDO_0E85E2F63FC671C64DB2D25A9CD50B11"/>
+				<UML:DiagramElement subject="EDDO_A1CF4B65EB317A73C42C70EE8D1A151A"/>
+				<UML:DiagramElement subject="EDDO_CB6A7929339B05018A30AA3CAA1C37D1"/>
+				<UML:DiagramElement subject="EDDO_4A071BCA47F6E8A87EFC9C3C383AA347"/>
+				<UML:DiagramElement subject="EDDO_9D2D292AB55AA4B42799F9A4DD4B31FD"/>
+				<UML:DiagramElement subject="EDDO_3E42A874E54B2E3B9B60268267814990"/>
+				<UML:DiagramElement subject="EDDO_E4C45642F67B3F46BB63F078F57B2250"/>
+				<UML:DiagramElement subject="EDDO_A5C5D4C143B4C470791BA8C0CC7D8C96"/>
+				<UML:DiagramElement subject="EDDO_34635C93FC4CE25B2CA17AF954C6AAD0"/>
+				<UML:DiagramElement subject="EDDO_42A77B30045999FBFFBEFA49D6A284A1"/>
+				<UML:DiagramElement subject="EDDO_E960334B81354A92BDD3B9BC86A98D06"/>
+				<UML:DiagramElement subject="EDDO_2DEC7F8A2798CB0E35EF33327BC3E3CF"/>
+				<UML:DiagramElement subject="EDDO_9B7493A09834759DAF4B79FE79763359"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
-		<UML:Diagram diagramType="ClassDiagram" name="Attributes" owner="EDDO_95ca21a4-a989-48c3-b107-034f297e4f17" toolName="Enterprise Architect 2.5" xmi.id="EDDO_a46e5c73-caa1-4ceb-a64a-6bc96f716d72">
+		<UML:Diagram diagramType="ClassDiagram" name="ListOfValues" owner="EDDO_3963eb9a-8d29-443c-8df5-7b23530484cc" toolName="Enterprise Architect 2.5" xmi.id="EDDO_f7c8ad54-d270-4b62-a3cb-e82e01d8c852">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="package" value="EDDO_95ca21a4-a989-48c3-b107-034f297e4f17"/>
+				<UML:TaggedValue tag="package" value="EDDO_3963eb9a-8d29-443c-8df5-7b23530484cc"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement subject="TEAM_Phone"/>
-				<UML:DiagramElement subject="TEAM_Email"/>
-				<UML:DiagramElement subject="TEAM_DateTime"/>
-				<UML:DiagramElement subject="TEAM_Role"/>
+				<UML:DiagramElement subject="EDDO_BF3551C47040FB69DD403AC75EDD16B8"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
-		<UML:Diagram diagramType="ClassDiagram" name="UserTypes" owner="EDDO_38b7faf1-d584-4580-8f04-f10f97e38dc2" toolName="Enterprise Architect 2.5" xmi.id="EDDO_625509d5-eba0-40ac-b31e-1b744fab27be">
+		<UML:Diagram diagramType="ClassDiagram" name="Lists of Values / LOVs" owner="EDDO_BF3551C47040FB69DD403AC75EDD16B8" toolName="Enterprise Architect 2.5" xmi.id="EDDO_9d0e6051-f46d-445f-a313-5407583d2484">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="package" value="EDDO_38b7faf1-d584-4580-8f04-f10f97e38dc2"/>
+				<UML:TaggedValue tag="package" value="EDDO_BF3551C47040FB69DD403AC75EDD16B8"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement subject="TEAM_Leaf"/>
-				<UML:DiagramElement subject="TEAM_Node"/>
-				<UML:DiagramElement subject="TEAM_Home"/>
+				<UML:DiagramElement subject="EDDO_107244D7C21E735921FF4086F7C0A63B"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
-		<UML:Diagram diagramType="ClassDiagram" name="References" owner="EDDO_aeb744c9-7c16-4b78-8b41-a5b05eb75427" toolName="Enterprise Architect 2.5" xmi.id="EDDO_b08839b2-ebca-4ca9-90a1-4e984b666661">
+		<UML:Diagram diagramType="ClassDiagram" name="Team LOVs" owner="EDDO_107244D7C21E735921FF4086F7C0A63B" toolName="Enterprise Architect 2.5" xmi.id="EDDO_e7bb76c6-560c-4dd5-814a-ace02be1ff1e">
 			<UML:ModelElement.taggedValue>
-				<UML:TaggedValue tag="package" value="EDDO_aeb744c9-7c16-4b78-8b41-a5b05eb75427"/>
+				<UML:TaggedValue tag="package" value="EDDO_107244D7C21E735921FF4086F7C0A63B"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement subject="TEAM_Contact"/>
+				<UML:DiagramElement subject="EDDO_B1BF01EE6E9A3EEAAA52AE60FBE2046A"/>
 			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram diagramType="ClassDiagram" name="Attributes" owner="EDDO_9a299076-701c-4f5f-9722-a6176efd328f" toolName="Enterprise Architect 2.5" xmi.id="EDDO_5afdd077-5b54-4cd0-a19f-d00c9daec661">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EDDO_9a299076-701c-4f5f-9722-a6176efd328f"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement subject="EDDO_1e9a1c60-e365-4d03-99c7-4353abce9bbe"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram diagramType="ClassDiagram" name="Team Attributes" owner="EDDO_1e9a1c60-e365-4d03-99c7-4353abce9bbe" toolName="Enterprise Architect 2.5" xmi.id="EDDO_02978b2a-12b7-4a33-9460-c0fd9571beca">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EDDO_1e9a1c60-e365-4d03-99c7-4353abce9bbe"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement subject="EDDO_7F59EEFE9F2B2A7BFF4D585B62D74156"/>
+				<UML:DiagramElement subject="EDDO_E0A0947B62FE41E5727893C30089DCB4"/>
+				<UML:DiagramElement subject="EDDO_EC7348317F15E3047300973306BCD214"/>
+				<UML:DiagramElement subject="EDDO_58567DB0DD3A6B405C8F41B98835481A"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram diagramType="ClassDiagram" name="UserTypes" owner="EDDO_b9e006e2-969a-4b00-a69a-f8564eefddc3" toolName="Enterprise Architect 2.5" xmi.id="EDDO_bc8f4a7f-1031-4971-961c-6c0fff9fcdf0">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EDDO_b9e006e2-969a-4b00-a69a-f8564eefddc3"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement subject="EDDO_1A8A88BDCC4672195273023661EE0435"/>
+				<UML:DiagramElement subject="EDDO_D5C2036CC1DC56D58E9E7F8DF96136E5"/>
+				<UML:DiagramElement subject="EDDO_3704285CB7587FC5C081F2409A026433"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram diagramType="ClassDiagram" name="References" owner="EDDO_72c2f6ca-8f2e-47c2-8be8-e72c20292784" toolName="Enterprise Architect 2.5" xmi.id="EDDO_486f3315-1bb8-4046-9629-e16e2d580d53">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EDDO_72c2f6ca-8f2e-47c2-8be8-e72c20292784"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement subject="EDDO_AD70590807EDBFB12F81E2C9B558C072"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram diagramType="ClassDiagram" name="Keys" owner="EDDO_db6904a4-e40f-4dc0-ab3d-285595e56e2f" toolName="Enterprise Architect 2.5" xmi.id="EDDO_519aaa9c-8dde-4ad5-83e6-e0f4ada5963d">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="package" value="EDDO_db6904a4-e40f-4dc0-ab3d-285595e56e2f"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=1;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1000;DocSize.cy=1000;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=1;HideProps=1;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=1;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element/>
 		</UML:Diagram>
 	</XMI.content>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAModel.file/>
+		<EAModel.resource/>
 	</XMI.extensions>
 </XMI>
