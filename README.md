@@ -33,7 +33,7 @@ The configuration used for our demonstration in STEP.XML format.
 
 A UML format (XMI) that can be used in tools like [Enterprise Architect by Sparx](https://sparxsystems.com)
 
-![EA UML Class Diagram]()
+![EA UML Class Diagram](EA-UML-Class-Diagram.png)
 
 
 # transform.xslt
