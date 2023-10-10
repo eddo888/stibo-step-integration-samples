@@ -23,7 +23,7 @@ The Stibo schema for STEP.XML format data, Stibo uses this format to import and 
 
 When systems are migrated from one system to another, we use STEP.XML formats.
 
-[STEP.XML doco](https://service.stibosystems.com/documentation/latest/Default.html#data_exchange/data_formats/stepxml_format.html)
+[STEP.XML doco](https://service.stibosystems.com/documentation/latest/content/dataexc/datafmt/stepxml_format.html)
 
 # exported.step.xml
 
