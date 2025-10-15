@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<step:STEP-ProductInformation 
-    xmlns:step="http://www.stibosystems.com/step"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.stibosystems.com/step PIM.xsd"
-    STEPWorkflowImportEvent="Y"
-    UseContextLocale="false"
-    WorkspaceID="Main"
-    SingleUpdateMode="N"
-    ExportTime="2025-09-02 11:21:39"
-    AutoApprove="N"
-    ContextID="Context1"
->
+<step:STEP-ProductInformation xmlns:step="http://www.stibosystems.com/step"
+                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                              xsi:schemaLocation="http://www.stibosystems.com/step PIM.xsd"
+                              STEPWorkflowImportEvent="Y"
+                              UseContextLocale="false"
+                              WorkspaceID="Main"
+                              SingleUpdateMode="N"
+                              ExportTime="2025-09-17 11:16:09"
+                              AutoApprove="N"
+                              ContextID="Context1">
    <step:Products>
       <step:Product ID="TEAM_Home"
                     ParentID="Product hierarchy root"
